@@ -33,6 +33,19 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# learn-rails
+  gem 'better_errors'
+  gem 'rails_layout'
+  gem 'bootstrap-sass'
+  gem 'gibbon'
+  gem 'high_voltage'
+  gem 'simple_form'
+  gem 'zurb-foundation'
+  gem 'google_drive'
+  gem 'figaro'
+  gem 'compass-rails'
+  gem 'activerecord-tableless'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

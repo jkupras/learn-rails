@@ -40,11 +40,11 @@ gem 'jbuilder', '~> 2.5'
   gem 'gibbon'
   gem 'high_voltage'
   gem 'simple_form'
-  gem 'zurb-foundation'
+gem 'zurb-foundation', '~> 4.3', '>= 4.3.2'
   gem 'google_drive'
-  gem 'figaro'
-  gem 'compass-rails'
-  gem 'activerecord-tableless'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

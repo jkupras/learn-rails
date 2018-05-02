@@ -40,9 +40,11 @@ gem 'jbuilder', '~> 2.5'
   gem 'gibbon'
   gem 'high_voltage'
   gem 'simple_form'
-gem 'zurb-foundation', '~> 4.3', '>= 4.3.2'
+  gem 'foundation-rails'
+  gem 'autoprefixer-rails'
   gem 'google_drive'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem 'jquery-rails', '~> 4.0', '>= 4.0.5'
 
 
 

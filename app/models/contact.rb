@@ -1,4 +1,5 @@
 class Contact < ApplicationRecord
- validates_presence_of :email, :name, :content
-  validates_length_of :content, :maximum => 50
+  validates_presence_of :email
+  validates_presence_of :name
+  validates_presence_of :content
 end

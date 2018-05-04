@@ -3,13 +3,10 @@
 <div class="form">
   <%= simple_form_for @contact do |form| %>
     <%= form.input :name, autofocus: true %>
+    <%= form.input :content %>
     <%= form.input :email %>
-    <%= form.input :content, as: :text %>
     <%= form.button :submit, 'Submit', class: 'submit' %>
     <% end %>
 </div>
-
-
-
 <%= link_to 'About',page_path('about') %>
 <%= link_to 'Home',root_path %>

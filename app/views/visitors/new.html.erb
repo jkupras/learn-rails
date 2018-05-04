@@ -1,5 +1,7 @@
-<h3>Home</h3>
-<p>Welcome to the home of <%= @owner.name %> </p>
-<p>I was born on <%= @owner.birthdate %></p>
-<p>Only <%= @owner.countdown %> days until my birthday!</p>
-<%= link_to 'About',page_path('about') %>
+<h3>EMAIL</h3>
+<%= simple_form_for @visitor do |f| %>
+<%= f.input :email,label: false, :placeholder => 'Your email address ...' %>
+<%= f.button :submit, 'Sign up for the newsletter', class: 'submit' %>
+<%end%>
+
+
